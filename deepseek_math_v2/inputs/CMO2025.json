@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "question": "Define two subsets $A$, $B$ of the set of complex numbers $\\Bbb C$ as follows:\\[  \\begin{aligned} A &= \\left\\{ z \\in \\Bbb C \\, \\left| \\, z = r \\textup{e}^{\\textup{i}\\theta} , \\, r \\geqslant 0, \\, \\theta \\in \\left[ 0, \\frac{\\pi}{41}\\right]\\right.\\right\\}, \\ B &= \\left\\{ z \\in \\Bbb C \\, \\left| \\,  z = x + \\textup{i}y, \\, x,y \\in \\Bbb R , \\, \\left| x - y \\right| < 2025 \\right. \\right\\} \\end{aligned}\\]where $\\textup{i}$ is the imaginary unit and $r \\textup{e}^{\\textup{i}\\theta} = r \\left( \\cos \\theta + \\textup{i} \\sin \\theta \\right)$.\nFind all univariate polynomials of complex coefficients $P(x)$, such that for all $z \\in A$, we have $P(z) \\in B$. (Note: A monomial is also considered a polynomial.)",
+        "answer": "null",
+        "contest": "CMO2025",
+        "problem_idx": "CMO2025-1"
+    },
+    {
+        "id": 2,
+        "question": "Let $ABCD$ be an convex quadrilateral inscribed in a circle with center $O$ and radius $1$, with vertices labeled consecutively around the circle (regardless of orientation), which satisfies $\\angle ABC < \\angle BCD < 90^\\circ$. Let lines $BA$ and $CD$ intersect at $P$, diagonals $AC$ and $BD$ intersect at $Q$. There is a point $K$ on segment $\\overline{BC}$, such that $P$, $A$, $K$, $D$ are concyclic and $KB \\cdot KC = \\frac 12 OP^2$. The perpendicular to $BC$ through $Q$ intersects line $OP$ at $T$.\n(1) Find all possible values of $\\overline{OP}$.\n(2) Find all possible values of $\\overline{TB} + \\overline{TC}$.",
+        "answer": "null",
+        "contest": "CMO2025",
+        "problem_idx": "CMO2025-2"
+    },
+    {
+        "id": 3,
+        "question": "Let $n$ be an positive integer. There are $n$ red cards and $n$ blue cards. Initially, there is a real number $0$ on each red card, and a real number $1$ on each blue card. One operation is: choose a red card and a blue card, such that the real number $x$ on the red card is smaller than the real number $y$ on the blue card, erase these two numbers and write down $\\frac{x + y}{2}$ instead on both cards.\nFind the smallest positive integer $n$, such that one can appropriately operate finite times to make the sum of real numbers on red cards be larger than $100$.",
+        "answer": "null",
+        "contest": "CMO2025",
+        "problem_idx": "CMO2025-3"
+    },
+    {
+        "id": 4,
+        "question": "There are 30 colors of cards, with 70 cards of each color. Initially, 70 cards are chosen arbitrarily and stacked from top to bottom to form a pile.\n\nOne operation is defined as follows:\nFrom the bottom 20 cards, choose a card $X$ whose color does *not* appear among the top 50 cards. Then, from the top 50 cards, choose a card $Y$ whose color appears at least twice among the top 50 cards. Remove $X$ and reinsert it immediately above $Y$. Repeat this operation until it is no longer possible to select such an $X$.\n\n(1) Prove that the operation can only be performed finitely many times.\n(2) Over all possible initial configurations and choices of operations, determine the maximum possible number of operations.",
+        "answer": "null",
+        "contest": "CMO2025",
+        "problem_idx": "CMO2025-4"
+    },
+    {
+        "id": 5,
+        "question": "Find all real numbers $\\lambda$ such that there exists a positive integer $N$ with the following property:\n   for every integer $n \\ge N$ and for all non-negative real numbers\n   $x_1, x_2, \\ldots, x_n$ whose sum is 1, the inequality\n\n$$\n\\left( \\sum_{1\\le i<j\\le n} x_i x_j \\right)^2 \\le \\lambda \\sum_{1\\le i<j<k\\le n} x_i x_j x_k + \\frac{1}{n}\\sum_{1\\le i<j\\le n} (x_i - x_j)^2\n$$\n\nalways holds.",
+        "answer": "null",
+        "contest": "CMO2025",
+        "problem_idx": "CMO2025-5"
+    },
+    {
+        "id": 6,
+        "question": "Given an odd integer $n > 1$. It is known that every prime divisor $p$ of $n$ satisfies $\\gcd(p - 1, n) = 1$. Determine the number of triples $(a, b, c)$ satisfying the following two conditions:\n\n(1) $a, b, c \\in {1, 2, \\dots, n}$, and $\\gcd(a, b, c, n) = 1$\n\n(2) There exists a permutation $x_1, x_2, \\dots, x_n$ of $1, 2, \\dots, n$ such that for every $1 \\le k \\le n$,\n\n$$\nn \\mid a x_{k+2} + b x_{k+1} + c x_k,\n$$\nwhere the indices are interpreted modulo $n$.",
+        "answer": "null",
+        "contest": "CMO2025",
+        "problem_idx": "CMO2025-6"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "question": "Let $\\alpha > 1$ be an irrational number and $L$ be a integer such that $L > \\frac{\\alpha^2}{\\alpha - 1}$. A sequence $x_1, x_2, \\cdots$ satisfies that $x_1 > L$ and for all positive integers $n$,\\[ x_{n+1} = \\begin{cases} \\left \\lfloor \\alpha x_n \\right \\rfloor & \\textup{if} \\; x_n  \\leqslant L \\\\left \\lfloor \\frac{x_n}{\\alpha} \\right \\rfloor & \\textup{if}  \\; x_n  > L \\end{cases}. \\]Prove that\n(i) $\\left\\{x_n\\right\\}$ is eventually periodic.\n(ii) The eventual fundamental period of $\\left\\{x_n\\right\\}$ is an odd integer which doesn't depend on the choice of $x_1$.",
+        "answer": "null",
+        "contest": "CMO2024",
+        "problem_idx": "CMO2024-1"
+    },
+    {
+        "id": 2,
+        "question": "Let $ABC$ be a triangle with incenter $I$. Denote the midpoints of $AI$, $AC$ and $CI$ by $L$, $M$ and $N$ respectively. Point $D$ lies on segment $AM$ such that $BC= BD$. Let the incircle of triangle $ABD$ be tangent to $AD$ and $BD$ at $E$ and $F$ respectively. Denote the circumcenter of triangle $AIC$ by $J$, and the circumcircle of triangle $JMD$ by $\\omega$. Lines $MN$ and $JL$ meet $\\omega$ again at $P$ and $Q$ respectively. Prove that $PQ$, $LN$ and $EF$ are concurrent.",
+        "answer": "null",
+        "contest": "CMO2024",
+        "problem_idx": "CMO2024-2"
+    },
+    {
+        "id": 3,
+        "question": "Let \\(a_1, a_2, \\ldots, a_n\\) be integers such that \\(a_1 > a_2 > \\cdots > a_n > 1\\). Let \\(M = \\operatorname{lcm} \\left( a_1, a_2, \\ldots, a_n \\right)\\). For any finite nonempty set $X$ of positive integers, define\\[ f(X) = \\min_{1 \\leqslant i \\leqslant n} \\sum_{x \\in X} \\left\\{ \\frac{x}{a_i} \\right\\}. \\]Such a set $X$ is called minimal if for every proper subset $Y$ of it, $f(Y) < f(X)$ always holds.\n\nSuppose $X$ is minimal and $f(X) \\geqslant \\frac{2}{a_n}$. Prove that\\[ |X| \\leqslant f(X) \\cdot M. \\]",
+        "answer": "null",
+        "contest": "CMO2024",
+        "problem_idx": "CMO2024-3"
+    },
+    {
+        "id": 4,
+        "question": "The fractional distance between two points $(x_1,y_1)$ and $(x_2,y_2)$ is defined as\\[ \\sqrt{ \\left\\| x_1 - x_2 \\right\\|^2 + \\left\\| y_1 - y_2 \\right\\|^2},\\]where $\\left\\| x \\right\\|$ denotes the distance between $x$ and its nearest integer. Find the largest real $r$ such that there exists four points on the plane whose pairwise fractional distance are all at least $r$.",
+        "answer": "\\frac{\\sqrt{6} - \\sqrt{2}}{2}",
+        "contest": "CMO2024",
+        "problem_idx": "CMO2024-4"
+    },
+    {
+        "id": 5,
+        "question": "Let $p$ be a prime number and $f$ be a bijection from $\\left\\{0,1,\\ldots,p-1\\right\\}$ to itself. Suppose that for integers $a,b \\in \\left\\{0,1,\\ldots,p-1\\right\\}$, $|f(a) - f(b)|\\leqslant 2024$ if $p \\mid a^2 - b$. Prove that there exists infinite many $p$ such that there exists such an $f$ and there also exists infinite many $p$ such that there doesn't exist such an $f$.",
+        "answer": "null",
+        "contest": "CMO2024",
+        "problem_idx": "CMO2024-5"
+    },
+    {
+        "id": 6,
+        "question": "Let $a_1, a_2, \\ldots, a_n$ be real numbers such that $\\sum_{i=1}^n a_i = n$, $\\sum_{i = 1}^n a_i^2 = 2n$, $\\sum_{i=1}^n a_i^3 = 3n$.\n(i) Find the largest constant $C$, such that for all $n \\geqslant 4$,\\[ \\max \\left\\{ a_1, a_2, \\ldots, a_n \\right\\} - \\min \\left\\{ a_1, a_2, \\ldots, a_n \\right\\} \\geqslant C. \\](ii) Prove that there exists a positive constant $C_2$, such that\\[ \\max \\left\\{ a_1, a_2, \\ldots, a_n \\right\\} - \\min \\left\\{ a_1, a_2, \\ldots, a_n \\right\\} \\geqslant C + C_2 n^{-\\frac 32}, \\]where $C$ is the constant determined in (i).",
+        "answer": "\\sqrt{5}",
+        "contest": "CMO2024",
+        "problem_idx": "CMO2024-6"
+    }
+]

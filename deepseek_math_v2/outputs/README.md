@@ -1,0 +1,1 @@
+This work makes use of [IMO-ProofBench](https://github.com/google-deepmind/superhuman/tree/main/imobench), developed by Google DeepMind, which is licensed under the [Apache License, Version 2.0](https://github.com/google-deepmind/superhuman/blob/main/LICENSE).
