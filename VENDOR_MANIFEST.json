@@ -1,0 +1,118 @@
+{
+  "description": "Vendored DeepSeek repositories - upstream tracking manifest",
+  "vendored_at": "2026-02-04",
+  "repositories": {
+    "model": {
+      "deepseek_moe": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-MoE.git",
+        "commit": "66edeee5a4f75cbd76e0316229ad101805a90e01",
+        "commit_date": "2024-01-16 20:17:59 +0800",
+        "description": "DeepSeekMoE - Fine-grained MoE architecture with shared experts"
+      },
+      "deepseek_v2": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-V2.git",
+        "commit": "ec98ee3cbffc32104cd55dba8af884b3d772602a",
+        "commit_date": "2024-09-25 18:23:55 +0800",
+        "description": "DeepSeek-V2 - Multi-head Latent Attention (MLA) + DeepSeekMoE"
+      },
+      "deepseek_v3": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-V3.git",
+        "commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+        "commit_date": "2025-08-28 11:24:26 +0800",
+        "description": "DeepSeek-V3 - 671B MoE with FP8 training and Multi-Token Prediction"
+      },
+      "deepseek_v3_2_exp": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp.git",
+        "commit": "87e509a2e5a100d221c97df52c6e8be7835f0057",
+        "commit_date": "2025-11-18 10:49:02 +0800",
+        "description": "DeepSeek-V3.2-Exp - DeepSeek Sparse Attention (DSA)"
+      },
+      "deepseek_r1": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-R1.git",
+        "commit": "0cf78561f1d51c84a21b2190626b21116d5c68bb",
+        "commit_date": "2025-04-09 13:36:23 +0800",
+        "description": "DeepSeek-R1 - Reasoning via Reinforcement Learning"
+      },
+      "deepseek_math_v2": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-Math-V2.git",
+        "commit": "665c840782baf7faae8a8b244ea313f3cfcc346f",
+        "commit_date": "2025-12-01 15:01:35 +0800",
+        "description": "DeepSeekMath-V2 - Self-verifiable mathematical reasoning"
+      },
+      "deepseek_coder": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-Coder.git",
+        "commit": "2f9fd85927c669dae3c0fbb2d607274023af243e",
+        "commit_date": "2025-11-11 14:44:55 +0800",
+        "description": "DeepSeek-Coder - Code LLM with FIM training"
+      },
+      "deepseek_coder_v2": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-Coder-V2.git",
+        "commit": "a2b4e0a25b5dab1ee87e8080f76e4512b0725b7b",
+        "commit_date": "2025-11-11 14:44:45 +0800",
+        "description": "DeepSeek-Coder-V2 - MoE code model with 128K context"
+      },
+      "deepseek_vl2": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-VL2.git",
+        "commit": "ef9f91e2b6426536b83294c11742c27be66361b1",
+        "commit_date": "2025-02-26 13:03:37 +0800",
+        "description": "DeepSeek-VL2 - MoE vision-language model"
+      },
+      "deepseek_ocr_v2": {
+        "upstream": "https://github.com/deepseek-ai/DeepSeek-OCR-2.git",
+        "commit": "2f3699ebbb96fa8af32212e8c170f2cc28730fad",
+        "commit_date": "2026-02-03 08:34:17 +0800",
+        "description": "DeepSeek-OCR-2 - Document OCR with dual encoder"
+      },
+      "engram": {
+        "upstream": "https://github.com/deepseek-ai/Engram.git",
+        "commit": "fb7f84a21f91223715394a33a1dc24bbfb7f788e",
+        "commit_date": "2026-01-14 09:13:02 +0800",
+        "description": "Engram - Conditional memory via N-gram lookup"
+      }
+    },
+    "infra": {
+      "deep_ep": {
+        "upstream": "https://github.com/deepseek-ai/DeepEP.git",
+        "commit": "567632dd59810d77b3cc05553df953cc0f779799",
+        "commit_date": "2026-02-03 15:51:04 +0800",
+        "description": "DeepEP - Expert parallelism communication library"
+      },
+      "deep_gemm": {
+        "upstream": "https://github.com/deepseek-ai/DeepGEMM.git",
+        "commit": "477618cd51baffca09c4b0b87e97c03fe827ef03",
+        "commit_date": "2026-02-03 17:29:49 +0800",
+        "description": "DeepGEMM - FP8/BF16 GEMM kernels with JIT compilation"
+      },
+      "flash_mla": {
+        "upstream": "https://github.com/deepseek-ai/FlashMLA.git",
+        "commit": "48c6dc426f045cb7743b18f5c7329f35f1b7ed79",
+        "commit_date": "2026-01-21 00:04:52 +0800",
+        "description": "FlashMLA - Optimized Multi-head Latent Attention kernels"
+      },
+      "dualpipe": {
+        "upstream": "https://github.com/deepseek-ai/DualPipe.git",
+        "commit": "030ce4325f4ebeb437da4ebc6d00a70469dd58ae",
+        "commit_date": "2026-01-14 14:34:58 +0800",
+        "description": "DualPipe - Bidirectional pipeline parallelism"
+      },
+      "3fs": {
+        "upstream": "https://github.com/deepseek-ai/3FS.git",
+        "commit": "e7ef789d94f9b427ab55847f9aec51a19903363b",
+        "commit_date": "2026-02-04 15:54:23 +0800",
+        "description": "3FS - Fire-Flyer distributed file system"
+      },
+      "smallpond": {
+        "upstream": "https://github.com/deepseek-ai/smallpond.git",
+        "commit": "52ecc5e45535c7448f848bcb45b0da00d9484f81",
+        "commit_date": "2025-03-05 22:46:23 +0800",
+        "description": "smallpond - Lightweight data processing on 3FS"
+      },
+      "open_infra_index": {
+        "upstream": "https://github.com/deepseek-ai/open-infra-index.git",
+        "commit": "56d86855fcf6e08fdfd45ce6280bd24322c93351",
+        "commit_date": "2025-05-15 10:00:11 +0800",
+        "description": "Open Infrastructure Index - Overview of DeepSeek infra projects"
+      }
+    }
+  }
+}
