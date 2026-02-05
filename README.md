@@ -12,6 +12,7 @@ A curated collection of open-source AI infrastructure and model implementations.
 |------|---------|----------------|
 | 2024.01 | [DeepSeek-MoE](deepseek_moe/) | Fine-grained expert segmentation, shared expert isolation |
 | 2024.01 | [DeepSeek-Coder](deepseek_coder/) | Code LLM with 86 languages, FIM training |
+| 2024.02 | [DeepSeek-Math](deepseek_math/) | GRPO algorithm, math pre-training corpus, tool-integrated reasoning |
 | 2024.05 | [DeepSeek-V2](deepseek_v2/) | Multi-head Latent Attention (MLA), 93% KV cache reduction |
 | 2024.06 | [DeepSeek-Coder-V2](deepseek_coder_v2/) | MoE code model, 338 languages, 128K context |
 | 2024.12 | [DeepSeek-V3](deepseek_v3/) | 671B MoE, FP8 training, auxiliary-loss-free balancing |
@@ -24,9 +25,10 @@ A curated collection of open-source AI infrastructure and model implementations.
 
 **Architecture track** (understand the model evolution):
 1. [DeepSeek-MoE](deepseek_moe/DEEP_DIVE.md) - Foundation: fine-grained experts, shared experts
-2. [DeepSeek-V2](deepseek_v2/DEEP_DIVE.md) - MLA attention that makes decoding compute-bound
-3. [DeepSeek-V3](deepseek_v3/DEEP_DIVE.md) - Full stack: FP8 training, MTP, load balancing
-4. [DeepSeek-R1](deepseek_r1/DEEP_DIVE.md) - RL-based reasoning emergence
+2. [DeepSeek-Math](deepseek_math/DEEP_DIVE.md) - GRPO: efficient RL without critic model
+3. [DeepSeek-V2](deepseek_v2/DEEP_DIVE.md) - MLA attention that makes decoding compute-bound
+4. [DeepSeek-V3](deepseek_v3/DEEP_DIVE.md) - Full stack: FP8 training, MTP, load balancing
+5. [DeepSeek-R1](deepseek_r1/DEEP_DIVE.md) - RL-based reasoning emergence
 
 **Infrastructure track** (understand the systems):
 1. [3FS](3fs/TECHNICAL_DEEP_DIVE.md) - Storage layer: CRAQ consistency, 6.6 TiB/s throughput
@@ -58,7 +60,8 @@ A curated collection of open-source AI infrastructure and model implementations.
 | [deepseek_vl2](deepseek_vl2/) | DeepSeek-VL2 vision-language model |
 | [deepseek_coder](deepseek_coder/) | DeepSeek-Coder for code generation |
 | [deepseek_coder_v2](deepseek_coder_v2/) | DeepSeek-Coder-V2 |
-| [deepseek_math_v2](deepseek_math_v2/) | DeepSeek-Math-V2 for mathematical reasoning |
+| [deepseek_math](deepseek_math/) | DeepSeek-Math for mathematical reasoning (GRPO) |
+| [deepseek_math_v2](deepseek_math_v2/) | DeepSeek-Math-V2 with self-verifiable proofs |
 | [deepseek_moe](deepseek_moe/) | DeepSeek-MoE base implementation |
 | [deepseek_ocr_v2](deepseek_ocr_v2/) | DeepSeek-OCR-V2 |
 
