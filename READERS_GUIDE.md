@@ -34,6 +34,17 @@
 
 ---
 
+## Qwen Educational Tracks
+
+| Repository | Status | Focus | Paper |
+|------------|--------|-------|-------|
+| `qwen3_tts/` | Local | Qwen3-TTS architecture, codec-first generation, single-speaker SFT workflow | arXiv:2601.15621 |
+| `qwen3_vl/` | Local | Qwen3-VL architecture, interleaved-MRoPE, DeepStack, timestamp alignment | arXiv:2511.21631 |
+
+These tracks are code-first educational implementations aimed at making the paper easier to understand through runnable modules, not production-equivalent model reproductions.
+
+---
+
 ## Part 1: Foundation Models
 
 ### 1.1 DeepSeekMoE (`deepseek_moe/`)

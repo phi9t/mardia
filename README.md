@@ -53,6 +53,8 @@ A curated collection of open-source AI infrastructure and model implementations.
 
 | Project | Description |
 |---------|-------------|
+| [qwen3_tts](qwen3_tts/) | Educational implementation of Qwen3-TTS architecture, training recipe, and validation |
+| [qwen3_vl](qwen3_vl/) | Educational implementation of Qwen3-VL architecture, multimodal training format, and validation |
 | [deepseek_v3](deepseek_v3/) | DeepSeek-V3 model implementation |
 | [deepseek_v3_2_exp](deepseek_v3_2_exp/) | DeepSeek-V3.2 experimental release |
 | [deepseek_r1](deepseek_r1/) | DeepSeek-R1 reasoning model |
