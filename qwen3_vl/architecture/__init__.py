@@ -1,0 +1,1 @@
+from .vl_model import Qwen3VLEducationalConfig, Qwen3VLEducationalModel

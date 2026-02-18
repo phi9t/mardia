@@ -1,0 +1,18 @@
+[
+  {
+    "image": ["/tmp/qwen3_vl_sample_0.jpg"],
+    "video": [],
+    "conversations": [
+      {"from": "human", "value": "<image> Describe this chart."},
+      {"from": "assistant", "value": "A simple chart with two bars."}
+    ]
+  },
+  {
+    "image": ["/tmp/qwen3_vl_sample_1.jpg"],
+    "video": [],
+    "conversations": [
+      {"from": "human", "value": "<image> Read the visible text."},
+      {"from": "assistant", "value": "Sample document text."}
+    ]
+  }
+]

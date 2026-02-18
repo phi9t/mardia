@@ -1,0 +1,2 @@
+{"audio":"/tmp/qwen3_tts_sample_0.wav","text":"hello world","ref_audio":"/tmp/qwen3_tts_sample_0.wav"}
+{"audio":"/tmp/qwen3_tts_sample_1.wav","text":"this is a test","ref_audio":"/tmp/qwen3_tts_sample_0.wav"}

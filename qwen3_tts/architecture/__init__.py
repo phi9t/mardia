@@ -1,0 +1,1 @@
+from .model import Qwen3TTSEducationalModel, Qwen3TTSEducationalConfig
